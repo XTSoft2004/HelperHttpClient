@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JxFFEnhXzrhQJWOU+aWmu0ykTZZC/8RonJ7alpOvhl6mgK+l16m6cr4Tow2YygZ1OPAeiFMy89TdGCvVzCZVmQ==",
+  "success": true,
+  "projectFilePath": "L:\\ASP.NET\\HelperHttpClient\\HelperHttpClient\\HelperHttpClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tranx\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
