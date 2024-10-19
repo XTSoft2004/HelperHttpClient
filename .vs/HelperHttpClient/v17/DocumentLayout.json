@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "L:\\ASP.NET\\HelperHttpClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|l:\\asp.net\\helperhttpclient\\helperhttpclient\\models\\multipartformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|solutionrelative:helperhttpclient\\models\\multipartformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|l:\\asp.net\\helperhttpclient\\helperhttpclient\\requesthttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|solutionrelative:helperhttpclient\\requesthttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|l:\\asp.net\\helperhttpclient\\helperhttpclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|solutionrelative:helperhttpclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|l:\\asp.net\\helperhttpclient\\helperhttpclient\\models\\cookiemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|solutionrelative:helperhttpclient\\models\\cookiemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{17d70bae-5bfd-492e-acf1-4a2a3300e5a7}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "L:\\ASP.NET\\HelperHttpClient\\HelperHttpClient\\Program.cs",
+              "RelativeDocumentMoniker": "HelperHttpClient\\Program.cs",
+              "ToolTip": "L:\\ASP.NET\\HelperHttpClient\\HelperHttpClient\\Program.cs",
+              "RelativeToolTip": "HelperHttpClient\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T14:27:29.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CookieModel.cs",
+              "DocumentMoniker": "L:\\ASP.NET\\HelperHttpClient\\HelperHttpClient\\Models\\CookieModel.cs",
+              "RelativeDocumentMoniker": "HelperHttpClient\\Models\\CookieModel.cs",
+              "ToolTip": "L:\\ASP.NET\\HelperHttpClient\\HelperHttpClient\\Models\\CookieModel.cs",
+              "RelativeToolTip": "HelperHttpClient\\Models\\CookieModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T14:27:26.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MultipartFormData.cs",
+              "DocumentMoniker": "L:\\ASP.NET\\HelperHttpClient\\HelperHttpClient\\Models\\MultipartFormData.cs",
+              "RelativeDocumentMoniker": "HelperHttpClient\\Models\\MultipartFormData.cs",
+              "ToolTip": "L:\\ASP.NET\\HelperHttpClient\\HelperHttpClient\\Models\\MultipartFormData.cs",
+              "RelativeToolTip": "HelperHttpClient\\Models\\MultipartFormData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T14:27:26.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestHttpClient.cs",
+              "DocumentMoniker": "L:\\ASP.NET\\HelperHttpClient\\HelperHttpClient\\RequestHttpClient.cs",
+              "RelativeDocumentMoniker": "HelperHttpClient\\RequestHttpClient.cs",
+              "ToolTip": "L:\\ASP.NET\\HelperHttpClient\\HelperHttpClient\\RequestHttpClient.cs",
+              "RelativeToolTip": "HelperHttpClient\\RequestHttpClient.cs",
+              "ViewState": "AQIAAPEAAAAAAAAAAAA9wAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T14:22:53.127Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

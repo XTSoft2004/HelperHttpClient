@@ -1,8 +1,11 @@
 ﻿using HelperHttpClient.Models;
+using ModelsHelper;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Reflection.Metadata;
 using System.Reflection.PortableExecutable;
 using System.Runtime.InteropServices;
@@ -10,6 +13,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace HelperHttpClient
 {
@@ -106,7 +110,10 @@ namespace HelperHttpClient
             Cookie cookieNew = new Cookie(name, value, path, domain);
             _cookieContainer.Add(cookieNew);
         }
-
+        public void ClearCookie()
+        {
+            _cookieContainer = new CookieContainer();
+        }
         public void SetCookie(CookieModel? cookieModel)
         {
             if (cookieModel == null)
@@ -263,6 +270,61 @@ namespace HelperHttpClient
                 return new HttpResponseMessage(HttpStatusCode.NotFound); ;
             }
         }
+        public async Task<HttpResponseMessage> DeleteAsync(string url)
+        {
+            try
+            {
+                var response = _cancellationToken != default(CancellationToken) ?
+                    await _client.DeleteAsync(url, _cancellationToken) : await _client.DeleteAsync(url);
+                Response = response;
+                Content = await GetTextContent(response);
+
+                return response;
+            }
+            catch (TaskCanceledException ex) when (ex.InnerException is TimeoutException)
+            {
+                Console.WriteLine("Yêu cầu bị hủy do timeout.");
+                // Xử lý nếu yêu cầu bị hủy do timeout ở đây
+                //throw; // Hoặc trả về một giá trị mặc định khác
+                return new HttpResponseMessage(HttpStatusCode.RequestTimeout);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Lỗi xảy ra: {ex.Message}");
+                //throw;
+                return new HttpResponseMessage(HttpStatusCode.NotFound); ;
+            }
+        }
+        public async Task<HttpResponseMessage> PatchAsync(string url, dynamic? DataPost)
+        {
+            try
+            {
+                // Chuyển object thành chuỗi JSON
+                string json = JsonConvert.SerializeObject(DataPost);
+                json = json.Replace("\r", "").Replace("\n", "").Trim();
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                var response = _cancellationToken != default(CancellationToken) ?
+                    await _client.PatchAsync(url, content, _cancellationToken) : await _client.PatchAsync(url, content);
+                Response = response;
+                Content = await GetTextContent(response);
+
+                return response;
+            }
+            catch (TaskCanceledException ex) when (ex.InnerException is TimeoutException)
+            {
+                Console.WriteLine("Yêu cầu bị hủy do timeout.");
+                // Xử lý nếu yêu cầu bị hủy do timeout ở đây
+                //throw; // Hoặc trả về một giá trị mặc định khác
+                return new HttpResponseMessage(HttpStatusCode.RequestTimeout);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Lỗi xảy ra: {ex.Message}");
+                //throw;
+                return new HttpResponseMessage(HttpStatusCode.NotFound); ;
+            }
+        }
         public async Task<HttpResponseMessage> PostAsync(string url, MultipartFormData multipartForm)
         {
             try
@@ -315,6 +377,32 @@ namespace HelperHttpClient
                 return new HttpResponseMessage(HttpStatusCode.NotFound); ;
             }
         }
+        public async Task<HttpResponseMessage> PostAsync(string url, MultipartFormDataContent multipartFormData)
+        {
+            try
+            {
+                var response = _cancellationToken != default(CancellationToken) ?
+                    await _client.PostAsync(url, multipartFormData, _cancellationToken) : await _client.PostAsync(url, multipartFormData);
+                Response = response;
+                Content = await GetTextContent(response);
+                //string text = await GetTextContent(response);
+
+                return response;
+            }
+            catch (TaskCanceledException ex) when (ex.InnerException is TimeoutException)
+            {
+                Console.WriteLine("Yêu cầu bị hủy do timeout.");
+                // Xử lý nếu yêu cầu bị hủy do timeout ở đây
+                //throw; // Hoặc trả về một giá trị mặc định khác
+                return new HttpResponseMessage(HttpStatusCode.RequestTimeout);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Lỗi xảy ra: {ex.Message}");
+                //throw;
+                return new HttpResponseMessage(HttpStatusCode.NotFound); ;
+            }
+        }
         public async Task<HttpResponseMessage> PostAsync(string url)
         {
             try
@@ -344,8 +432,13 @@ namespace HelperHttpClient
         {
             try
             {
+                // Chuyển object thành chuỗi JSON
+                string json = JsonConvert.SerializeObject(DataPost);
+                json = json.Replace("\r", "").Replace("\n", "").Trim();
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+
                 var response = _cancellationToken != default(CancellationToken) ?
-                    await _client.PostAsync(url, DataPost, _cancellationToken) : await _client.PostAsync(url, DataPost);
+                    await _client.PostAsync(url, content, _cancellationToken) : await _client.PostAsync(url, content);
                 Response = response;
                 Content = await GetTextContent(response);
 
