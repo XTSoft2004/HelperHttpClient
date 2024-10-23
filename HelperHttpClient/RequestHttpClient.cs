@@ -79,7 +79,8 @@ namespace HelperHttpClient
             {
                 AllowAutoRedirect = true,
                 AutomaticDecompression = DecompressionMethods.All,
-                CookieContainer = _cookieContainer
+                CookieContainer = _cookieContainer,
+                ServerCertificateCustomValidationCallback = (HttpRequestMessage, cert, chain, sslPolicyErrors) => true
             };
 
             _client = new HttpClient(_handler);

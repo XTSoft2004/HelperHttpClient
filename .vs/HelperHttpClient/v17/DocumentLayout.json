@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "L:\\ASP.NET\\HelperHttpClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|l:\\asp.net\\helperhttpclient\\helperhttpclient\\models\\multipartformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|solutionrelative:helperhttpclient\\models\\multipartformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|l:\\asp.net\\helperhttpclient\\helperhttpclient\\requesthttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|solutionrelative:helperhttpclient\\requesthttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|l:\\asp.net\\helperhttpclient\\helperhttpclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|solutionrelative:helperhttpclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|l:\\asp.net\\helperhttpclient\\helperhttpclient\\models\\multipartformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|solutionrelative:helperhttpclient\\models\\multipartformdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}|HelperHttpClient\\HelperHttpClient.csproj|l:\\asp.net\\helperhttpclient\\helperhttpclient\\models\\cookiemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,13 +54,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "L:\\ASP.NET\\HelperHttpClient\\HelperHttpClient\\Program.cs",
               "RelativeDocumentMoniker": "HelperHttpClient\\Program.cs",
               "ToolTip": "L:\\ASP.NET\\HelperHttpClient\\HelperHttpClient\\Program.cs",
               "RelativeToolTip": "HelperHttpClient\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T14:27:29.778Z",
               "EditorCaption": ""
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MultipartFormData.cs",
               "DocumentMoniker": "L:\\ASP.NET\\HelperHttpClient\\HelperHttpClient\\Models\\MultipartFormData.cs",
               "RelativeDocumentMoniker": "HelperHttpClient\\Models\\MultipartFormData.cs",
@@ -92,13 +92,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "RequestHttpClient.cs",
               "DocumentMoniker": "L:\\ASP.NET\\HelperHttpClient\\HelperHttpClient\\RequestHttpClient.cs",
               "RelativeDocumentMoniker": "HelperHttpClient\\RequestHttpClient.cs",
               "ToolTip": "L:\\ASP.NET\\HelperHttpClient\\HelperHttpClient\\RequestHttpClient.cs",
               "RelativeToolTip": "HelperHttpClient\\RequestHttpClient.cs",
-              "ViewState": "AQIAAPEAAAAAAAAAAAA9wAoAAAAlAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAAEwAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T14:22:53.127Z",
               "EditorCaption": ""
