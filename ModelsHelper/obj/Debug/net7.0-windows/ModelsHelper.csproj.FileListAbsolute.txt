@@ -1,0 +1,12 @@
+L:\ASP.NET\HelperHttpClient\ModelsHelper\bin\Debug\net7.0-windows\ModelsHelper.deps.json
+L:\ASP.NET\HelperHttpClient\ModelsHelper\bin\Debug\net7.0-windows\ModelsHelper.dll
+L:\ASP.NET\HelperHttpClient\ModelsHelper\bin\Debug\net7.0-windows\ModelsHelper.pdb
+L:\ASP.NET\HelperHttpClient\ModelsHelper\obj\Debug\net7.0-windows\ModelsHelper.GeneratedMSBuildEditorConfig.editorconfig
+L:\ASP.NET\HelperHttpClient\ModelsHelper\obj\Debug\net7.0-windows\ModelsHelper.AssemblyInfoInputs.cache
+L:\ASP.NET\HelperHttpClient\ModelsHelper\obj\Debug\net7.0-windows\ModelsHelper.AssemblyInfo.cs
+L:\ASP.NET\HelperHttpClient\ModelsHelper\obj\Debug\net7.0-windows\ModelsHelper.csproj.CoreCompileInputs.cache
+L:\ASP.NET\HelperHttpClient\ModelsHelper\obj\Debug\net7.0-windows\ModelsHelper.sourcelink.json
+L:\ASP.NET\HelperHttpClient\ModelsHelper\obj\Debug\net7.0-windows\ModelsHelper.dll
+L:\ASP.NET\HelperHttpClient\ModelsHelper\obj\Debug\net7.0-windows\refint\ModelsHelper.dll
+L:\ASP.NET\HelperHttpClient\ModelsHelper\obj\Debug\net7.0-windows\ModelsHelper.pdb
+L:\ASP.NET\HelperHttpClient\ModelsHelper\obj\Debug\net7.0-windows\ref\ModelsHelper.dll

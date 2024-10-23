@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net7.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -12,9 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="ModelsHelper">
-      <HintPath>..\..\ModelsHelper\ModelsHelper\bin\Debug\net7.0\ModelsHelper.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\ModelsHelper\ModelsHelper.csproj" />
   </ItemGroup>
 
 </Project>

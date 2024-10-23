@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelperHttpClient", "HelperHttpClient\HelperHttpClient.csproj", "{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestSharpHelper", "..\RestSharpHelper\RestSharpHelper\RestSharpHelper.csproj", "{B42E701E-3445-49A9-97AA-7EB37887BDF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelsHelper", "ModelsHelper\ModelsHelper.csproj", "{276D703B-A114-4C46-9CF1-F48F34877832}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B0B694C-9D08-4898-B6C1-58D3B8F59F4D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B42E701E-3445-49A9-97AA-7EB37887BDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B42E701E-3445-49A9-97AA-7EB37887BDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B42E701E-3445-49A9-97AA-7EB37887BDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B42E701E-3445-49A9-97AA-7EB37887BDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276D703B-A114-4C46-9CF1-F48F34877832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276D703B-A114-4C46-9CF1-F48F34877832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276D703B-A114-4C46-9CF1-F48F34877832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276D703B-A114-4C46-9CF1-F48F34877832}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

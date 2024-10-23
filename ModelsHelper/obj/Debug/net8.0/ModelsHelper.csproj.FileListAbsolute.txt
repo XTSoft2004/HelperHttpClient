@@ -1,0 +1,11 @@
+L:\ASP.NET\ModelsHelper\ModelsHelper\obj\Debug\net8.0\ModelsHelper.GeneratedMSBuildEditorConfig.editorconfig
+L:\ASP.NET\ModelsHelper\ModelsHelper\obj\Debug\net8.0\ModelsHelper.AssemblyInfoInputs.cache
+L:\ASP.NET\ModelsHelper\ModelsHelper\obj\Debug\net8.0\ModelsHelper.AssemblyInfo.cs
+L:\ASP.NET\ModelsHelper\ModelsHelper\obj\Debug\net8.0\ModelsHelper.csproj.CoreCompileInputs.cache
+L:\ASP.NET\ModelsHelper\ModelsHelper\bin\Debug\net8.0\ModelsHelper.deps.json
+L:\ASP.NET\ModelsHelper\ModelsHelper\bin\Debug\net8.0\ModelsHelper.dll
+L:\ASP.NET\ModelsHelper\ModelsHelper\bin\Debug\net8.0\ModelsHelper.pdb
+L:\ASP.NET\ModelsHelper\ModelsHelper\obj\Debug\net8.0\ModelsHelper.dll
+L:\ASP.NET\ModelsHelper\ModelsHelper\obj\Debug\net8.0\refint\ModelsHelper.dll
+L:\ASP.NET\ModelsHelper\ModelsHelper\obj\Debug\net8.0\ModelsHelper.pdb
+L:\ASP.NET\ModelsHelper\ModelsHelper\obj\Debug\net8.0\ref\ModelsHelper.dll

@@ -1,0 +1,16 @@
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\bin\Debug\net7.0-windows\HelperHttpClient.deps.json
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\bin\Debug\net7.0-windows\HelperHttpClient.dll
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\bin\Debug\net7.0-windows\HelperHttpClient.pdb
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\bin\Debug\net7.0-windows\ModelsHelper.dll
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\bin\Debug\net7.0-windows\ModelsHelper.pdb
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\obj\Debug\net7.0-windows\HelperHttpClient.csproj.AssemblyReference.cache
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\obj\Debug\net7.0-windows\HelperHttpClient.GeneratedMSBuildEditorConfig.editorconfig
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\obj\Debug\net7.0-windows\HelperHttpClient.AssemblyInfoInputs.cache
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\obj\Debug\net7.0-windows\HelperHttpClient.AssemblyInfo.cs
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\obj\Debug\net7.0-windows\HelperHttpClient.csproj.CoreCompileInputs.cache
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\obj\Debug\net7.0-windows\HelperHttpClient.sourcelink.json
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\obj\Debug\net7.0-windows\HelperHt.4660C718.Up2Date
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\obj\Debug\net7.0-windows\HelperHttpClient.dll
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\obj\Debug\net7.0-windows\refint\HelperHttpClient.dll
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\obj\Debug\net7.0-windows\HelperHttpClient.pdb
+L:\ASP.NET\HelperHttpClient\HelperHttpClient\obj\Debug\net7.0-windows\ref\HelperHttpClient.dll

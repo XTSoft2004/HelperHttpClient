@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net7.0-windows7.0": {
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -13,6 +13,16 @@
           "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ModelsHelper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ModelsHelper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModelsHelper.dll": {}
         }
       }
     }
@@ -47,10 +57,16 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "ModelsHelper/1.0.0": {
+      "type": "project",
+      "path": "../ModelsHelper/ModelsHelper.csproj",
+      "msbuildProject": "../ModelsHelper/ModelsHelper.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net7.0-windows7.0": [
+      "ModelsHelper >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
@@ -79,7 +95,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net7.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -88,9 +104,13 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "projectReferences": {}
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {
+            "L:\\ASP.NET\\HelperHttpClient\\ModelsHelper\\ModelsHelper.csproj": {
+              "projectPath": "L:\\ASP.NET\\HelperHttpClient\\ModelsHelper\\ModelsHelper.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -105,8 +125,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
         "dependencies": {
           "Newtonsoft.Json": {
             "target": "Package",

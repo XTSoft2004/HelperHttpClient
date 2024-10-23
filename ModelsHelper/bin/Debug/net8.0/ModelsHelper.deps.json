@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ModelsHelper/1.0.0": {
+        "runtime": {
+          "ModelsHelper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModelsHelper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
